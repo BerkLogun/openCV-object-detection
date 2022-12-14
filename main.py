@@ -13,7 +13,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 #WindowCapture.list_window_names()
 
-wincap = WindowCapture("RealMt2'ye Hosgeldin! | Bu Macerada [KRAL] Sensin!   'RealMt2.com'")
+wincap = WindowCapture("windowname")
 vision_metin = Vision(None)
 
 cascade_metin = cv2.CascadeClassifier('cascade/cascade.xml')
